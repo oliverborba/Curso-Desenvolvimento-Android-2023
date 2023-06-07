@@ -3,6 +3,7 @@ package devandroid.borba.applistacurso.view;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import devandroid.borba.applistacurso.R;
 import devandroid.borba.applistacurso.model.Pessoa;
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         outraPessoa.setSobreNome("Cioato");
         outraPessoa.setCursoDesejado("Android");
         outraPessoa.setTelefoneContato("54-95544321");
-
+/*
         dadosPessoa = "Primeiro nome: ";
         dadosPessoa += pessoa.getPrimeiroNome();
         dadosPessoa += " Sobrenome: ";
@@ -50,9 +51,10 @@ public class MainActivity extends AppCompatActivity {
         dadosOutraPessoa += " Curso Desejado: ";
         dadosOutraPessoa += outraPessoa.getCursoDesejado();
         dadosOutraPessoa += " Telefone: ";
-        dadosOutraPessoa += outraPessoa.getTelefoneContato();
+        dadosOutraPessoa += outraPessoa.getTelefoneContato();*/
 
+        Log.i("POOAndroid", "Objeto Pessoa: "+ pessoa.toString());
+        Log.i("POOAndroid", "Objeto outraPessoa: "+ outraPessoa.toString());
 
-        int parada = 0;
     }
 }

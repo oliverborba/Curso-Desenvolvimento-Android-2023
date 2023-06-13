@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
                 editNomeCurso.setText("");
 
                 controller.limpar();
-
             }
         });
 
@@ -92,6 +91,5 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("POOAndroid", "Objeto Pessoa: " + pessoa.toString());
 //        Log.i("POOAndroid", "Objeto outraPessoa: " + outraPessoa.toString());
-
     }
 }

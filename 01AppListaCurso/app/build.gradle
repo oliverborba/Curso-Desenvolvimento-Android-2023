@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'devandroid.borba.appgaseta'
+    namespace 'devandroid.borba.applistacurso'
     compileSdk 33
 
     defaultConfig {
-        applicationId "devandroid.borba.appgaseta"
+        applicationId "devandroid.borba.applistacurso"
         minSdk 26
         targetSdk 33
         versionCode 1

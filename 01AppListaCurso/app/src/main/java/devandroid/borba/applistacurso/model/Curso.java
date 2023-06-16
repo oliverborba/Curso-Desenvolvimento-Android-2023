@@ -1,4 +1,4 @@
-package devandroid.borba.appgaseta.model;
+package devandroid.borba.applistacurso.model;
 
 public class Curso {
 

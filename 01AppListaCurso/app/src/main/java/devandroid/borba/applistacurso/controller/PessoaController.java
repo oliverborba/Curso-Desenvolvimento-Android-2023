@@ -1,12 +1,12 @@
-package devandroid.borba.appgaseta.controller;
+package devandroid.borba.applistacurso.controller;
 
 import android.content.SharedPreferences;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
 
-import devandroid.borba.appgaseta.model.Pessoa;
-import devandroid.borba.appgaseta.view.MainActivity;
+import devandroid.borba.applistacurso.model.Pessoa;
+import devandroid.borba.applistacurso.view.MainActivity;
 
 public class PessoaController {
 

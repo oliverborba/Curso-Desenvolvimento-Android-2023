@@ -1,4 +1,4 @@
-package devandroid.borba.appgaseta.view;
+package devandroid.borba.applistacurso.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import devandroid.borba.appgaseta.R;
+import devandroid.borba.applistacurso.R;
 
 public class SplashActivity extends AppCompatActivity {
 

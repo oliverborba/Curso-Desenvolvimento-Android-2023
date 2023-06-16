@@ -1,4 +1,4 @@
-package devandroid.borba.appgaseta.view;
+package devandroid.borba.applistacurso.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,11 +13,10 @@ import android.widget.Toast;
 
 import java.util.List;
 
-
-import devandroid.borba.appgaseta.R;
-import devandroid.borba.appgaseta.controller.CursoController;
-import devandroid.borba.appgaseta.controller.PessoaController;
-import devandroid.borba.appgaseta.model.Pessoa;
+import devandroid.borba.applistacurso.R;
+import devandroid.borba.applistacurso.controller.CursoController;
+import devandroid.borba.applistacurso.controller.PessoaController;
+import devandroid.borba.applistacurso.model.Pessoa;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -53,8 +52,8 @@ public class MainActivity extends AppCompatActivity {
 
         controller.buscar(pessoa);
 
-        editPrimeiroNome = findViewById(R.id.editGasolina);
-        editSobreNomeAluno = findViewById(R.id.editEtanol);
+        editPrimeiroNome = findViewById(R.id.editPrimeiroNome);
+        editSobreNomeAluno = findViewById(R.id.editSobreNomeAluno);
         editNomeCurso = findViewById(R.id.editNomeCurso);
         editTelefoneContato = findViewById(R.id.editTelefoneContato);
         spinner = findViewById(R.id.spinner);

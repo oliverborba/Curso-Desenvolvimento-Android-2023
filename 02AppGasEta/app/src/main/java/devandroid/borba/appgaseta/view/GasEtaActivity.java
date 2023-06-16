@@ -23,7 +23,7 @@ public class GasEtaActivity extends AppCompatActivity {
 
 
 
-        Toast.makeText(GasEtaActivity.this, UtilGasEta.mensagem(), Toast.LENGTH_LONG).show();
+        Toast.makeText(GasEtaActivity.this, UtilGasEta.calcularMelhorOpcao(5.12, 3.99), Toast.LENGTH_LONG).show();
 
     }
 }

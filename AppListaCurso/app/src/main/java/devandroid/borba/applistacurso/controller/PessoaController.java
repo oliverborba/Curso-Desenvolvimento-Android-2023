@@ -18,9 +18,7 @@ public class PessoaController {
     public PessoaController(MainActivity mainActivity) {
         preferences = mainActivity.getSharedPreferences(NOME_PREFERENCES, 0);
         listaVip = preferences.edit();
-
     }
-
 
     @NonNull
     @Override
@@ -53,6 +51,4 @@ public class PessoaController {
         listaVip.clear();
         listaVip.apply();
     }
-
-
 }

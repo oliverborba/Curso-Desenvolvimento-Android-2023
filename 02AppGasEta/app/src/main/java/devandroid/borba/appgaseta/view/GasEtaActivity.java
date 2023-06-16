@@ -21,7 +21,7 @@ public class GasEtaActivity extends AppCompatActivity {
 
 //        utilGasEta.metodoEstatico();
 
-//
+
 
         Toast.makeText(GasEtaActivity.this, UtilGasEta.mensagem(), Toast.LENGTH_LONG).show();
 
